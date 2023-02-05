@@ -118,6 +118,17 @@ export default function registerSettings() {
         }
     });
 
+    game.settings.register(NAME, SETTING_KEYS.hideNonPlayerNames, {
+        name: "COMBAT_CAROUSEL.SETTINGS.HideNonPlayerNamesN",
+        hint: "COMBAT_CAROUSEL.SETTINGS.HideNonPlayerNamesH",
+        scope: "client",
+        type: Boolean,
+        default: false,
+        config: true,
+        onChange: s => {
+        }
+    });
+
     game.settings.register(NAME, SETTING_KEYS.controlActiveCombatantToken, {
         name: "COMBAT_CAROUSEL.SETTINGS.ControlActiveCombatantTokenN",
         hint: "COMBAT_CAROUSEL.SETTINGS.ControlActiveCombatantTokenH",

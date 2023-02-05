@@ -39,7 +39,9 @@
             "AlwaysOnTopN": "Always On Top",
             "AlwaysOnTopH": "Always render the Carousel above other UI elements.",
             "OpenOnCombatCreateN": "Open Combat Carousel on Combat Creation",
-            "OpenOnCombatCreateH": "Opens the Carousel when a Combat is created"
+            "OpenOnCombatCreateH": "Opens the Carousel when a Combat is created",
+            "HideNonPlayerNamesN" : "Hide Non-Player Names",
+            "HideNonPlayerNamesH" : "Will remove token names from the top of all tokens that are not players" 
         },
 
         "CAROUSEL": {

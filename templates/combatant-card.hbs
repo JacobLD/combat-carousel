@@ -7,7 +7,9 @@
             <a class="combatant-control" data-control="remove" title="{{localize "COMBAT_CAROUSEL.COMBATANT_CARD.Controls.Remove"}}"><i class="fas fa-trash"></i></a>
         </div>
         {{/if}}
+        {{#if !combatant.isNPC || (!SETTING_KEYS.hideNonPlayerNames && combatant.isNPC)}}
         <h3 title="{{combatant.name}}">{{combatant.name}}</h3>
+        {{/if}}
     </div>
     <div class="container">
         <div class="overlay-hud">

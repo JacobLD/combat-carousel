@@ -58,7 +58,8 @@ export const SETTING_KEYS = {
     controlActiveCombatantToken: "controlActiveCombatantToken",
     panOnClick: "panOnClick",
     alwaysOnTop: "alwaysOnTop",
-    openOnCombatCreate: "openOnCombatCreate"
+    openOnCombatCreate: "openOnCombatCreate",
+    hideNonPlayerNames: "hideNonPlayerNames"
 }
 
 /**
